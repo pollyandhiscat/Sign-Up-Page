@@ -34,3 +34,17 @@
 
     color: rgb(243, 243, 243);
 }
+
+#section_1 {
+
+    flex-shrink: 2;
+    
+}
+
+#section_2 {
+
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+    
+}
