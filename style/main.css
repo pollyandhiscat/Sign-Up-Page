@@ -1,4 +1,4 @@
-*{
+* {
 
     background-color: rgb(26, 30, 29);
 
@@ -8,12 +8,29 @@
 
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .background_image {
 
     width: 650px;
     height: auto;
-    
+
+}
+
+#quote_text {
+
+
+    color: rgb(243, 243, 243);
+
+}
+
+#sign_up_text {
+
+    color: rgb(243, 243, 243);
+}
+
+#create_text {
+
+    color: rgb(243, 243, 243);
 }
