@@ -60,6 +60,9 @@
 #sign_up_today {
 
     color: rgb(243, 243, 243);
+    font-weight: bolder;
+    font-size: x-large;
+
 }
 
 #sign_up_area {
@@ -76,4 +79,18 @@ input, label {
 .user_input {
 
     width: 250px;
+}
+
+#first_last_email{
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+#phone_pass_pass {
+
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
