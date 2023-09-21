@@ -94,3 +94,18 @@ input, label {
     flex-direction: column;
     gap: 9px;
 }
+
+#create_account_button {
+
+    border-radius: 2em;
+    background-color: rgb(65, 69, 68);
+    color: rgb(212, 210, 210);
+
+}
+
+#already_login {
+
+    color: rgb(212, 210, 210);
+
+
+}
