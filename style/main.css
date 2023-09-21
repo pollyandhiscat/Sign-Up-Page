@@ -109,3 +109,14 @@ input, label {
 
 
 }
+
+a:link,
+a:visited {
+
+    color: rgb(125, 124, 124);
+}
+
+a:hover {
+
+    color: rgb(200, 115, 115);
+}
