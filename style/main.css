@@ -128,3 +128,9 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
 }
+
+#sign_up_fields {
+
+    display: flex;
+    gap: 75px;
+}
