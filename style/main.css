@@ -68,7 +68,7 @@
 #sign_up_area {
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 800px;
 }
 
@@ -133,4 +133,5 @@ a:hover {
 
     display: flex;
     gap: 75px;
+
 }
