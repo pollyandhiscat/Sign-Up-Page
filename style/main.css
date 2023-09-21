@@ -68,7 +68,7 @@
 #sign_up_area {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 800px;
 }
 
