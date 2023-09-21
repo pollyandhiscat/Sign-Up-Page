@@ -75,6 +75,7 @@
 
 input, label {
     display: block;
+    color: rgb(243, 243, 243);
 }
 .user_input {
 
