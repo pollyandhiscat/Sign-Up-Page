@@ -77,9 +77,18 @@ input, label {
     display: block;
     color: rgb(243, 243, 243);
 }
+
 .user_input {
 
     width: 250px;
+    
+}
+
+.user_input:focus {
+
+    background-color: rgb(73, 72, 72);
+    border: 2px solid rgb(97, 186, 97);
+    outline: none;
 }
 
 #first_last_email{
