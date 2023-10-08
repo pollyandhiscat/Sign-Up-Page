@@ -1,6 +1,3 @@
-const userPasswordDiv = document.getElementById('user_password_container');
-const userPasswordConfirmDiv = document.getElementById('user_password_confirm_container');
-
 let userPassword = document.getElementById('user_password');
 let userPasswordConfirm = document.getElementById('user_password_confirm');
 
@@ -48,7 +45,5 @@ userPasswordConfirm.addEventListener('keyup', () => {
 
         }
     }
-
-
 
 })
