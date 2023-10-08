@@ -25,25 +25,39 @@ function passwordsMatch() {
 
 }
 
+[userPassword, userPasswordConfirm].forEach(item => {
 
-userPasswordConfirm.addEventListener('keyup', () => {
+    item.addEventListener('keyup', () => {
 
-    if (userPasswordConfirm.value.length != 0) {
-
-        let result = passwordsMatch();
-
-        if (result == true) {
-
-            userPassword.setAttribute('style', 'background-color: green;');
-            userPasswordConfirm.setAttribute('style', 'background-color: green;');
+        if (item.value.length != 0) {
+    
+            let result = passwordsMatch();
+            
+            // Passwords do not match.
+            if (result == false) {
+    
+                userPassword.setAttribute('style', 'background-color: rgb(181, 45, 45);');
+                userPasswordConfirm.setAttribute('style', 'background-color: rgb(181, 45, 45);');
+            }
+            
+            // Passwords match.
+            else {
+    
+    
+                userPassword.setAttribute('style', 'background-color: rgb(26, 30, 29);');
+                userPasswordConfirm.setAttribute('style', 'background-color: rgb(26, 30, 29);');
+    
+            }
+    
         }
 
+        // Both fields empty.
         else {
 
-            userPassword.setAttribute('style', 'background-color: red;');
-            userPasswordConfirm.setAttribute('style', 'background-color: red;');
+            userPassword.setAttribute('style', 'background-color: rgb(26, 30, 29);');
+            userPasswordConfirm.setAttribute('style', 'background-color: rgb(26, 30, 29);');
 
         }
-    }
-
+    
+    })
 })
